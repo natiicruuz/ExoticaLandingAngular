@@ -1,0 +1,86 @@
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 2rem;
+  min-height: 70vh;
+  padding: 2rem;
+  background-color: #F5F4F2;
+  padding-bottom: 0;
+
+   /* 👇 Aquí pones las líneas como fondo */
+  background-image: url('/img/lines.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px;
+
+}
+
+.hero-text h1 {
+  font-family: serif;
+  font-size: 6rem;
+  line-height: 1.8;
+  font-weight: 400;
+  padding-left: 50px;
+}
+
+.hero-card {
+  max-width: 460px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  background-color: white;   /* color del marco */
+  padding: 1rem 1rem 2rem;   /* espacio arriba/lados y más abajo */
+}
+
+.hero-card img[mat-card-image] {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 4px solid white;   /* borde entre la imagen y el marco */
+  box-sizing: border-box;
+}
+
+.hero-card mat-card-content {
+  margin-top: 1rem;
+}
+
+.hero-card h2 {
+  font-weight: bold;
+  margin: 0.5rem 0 0;
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 10px;
+
+}
+
+.hero-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+  font-size: 12px;
+  text-align: left;
+  padding-top: 5px;
+
+}
+
+.scroll-indicator {
+  display: flex;
+  justify-content: center;
+}
+
+mat-icon {
+  font-size: 28px;
+  margin-top: 24px;
+}
+
+.design-studio1{
+  text-align: right;
+  font-size: 90px;
+}
+
+.design-studio2{
+  text-align: right;
+  font-size: 90px;
+}
+

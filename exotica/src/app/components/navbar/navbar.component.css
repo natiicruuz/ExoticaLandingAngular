@@ -1,0 +1,16 @@
+a[mat-button] {
+  color: #374151; /* Tailwind's gray-700 */
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+a[mat-button]:hover {
+  color: #000;
+}
+
+.mat-elevation-z2{
+  background-color: white;
+  border-bottom: 2px solid black;
+    min-height: 10vh;
+
+}
